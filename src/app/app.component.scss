@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .editor, .markdown {
+        width: 50%;
+        height: 100%;
+    }
+
+    .editor {
+        background: #fafafa;
+    }
+
+    .markdown {
+        background: #fafafa;
+    }
+}
+
+.actions {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
